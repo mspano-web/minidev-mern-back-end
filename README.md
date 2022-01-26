@@ -36,7 +36,7 @@ ___
 
 ___
 
-## información del proyecto / Project information
+## Información del proyecto / Project information
 
 * [Wireframes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=0%3A1) - (Figma)
 * [Layouts & Prototypes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A3) - (Figma)
