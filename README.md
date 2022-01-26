@@ -33,6 +33,7 @@ ___
 * Nodemailer
 * Winston / Express Winston
 * Multer
+* Typedoc
 
 ___
 
