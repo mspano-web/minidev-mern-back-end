@@ -1,0 +1,21 @@
+<%- include('./partials/header', {tituloweb: 'Minidev'}); %>
+<body>
+    <div class="container">
+        <% if (title) { %>
+            <h2 class="text-primary"><%= title %></h2>
+        <% } %>
+       
+        <form action="/images/images-products" method="get"> 
+            <div class="input-group">
+                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon" name="id" id="id">
+                    <option selected>Choose...</option>
+                    <% products.forEach(function(product) { %>
+                        <option value=<%= product._id %>> <%= product._id %> - <%= product.prod_title %></option>
+                    <% }); %>
+                </select>
+                <button type="submit" class="btn btn-dark">Search</button> 
+            </div>
+-        </form> -
+    </div>
+</body>
+</html>

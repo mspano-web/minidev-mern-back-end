@@ -1,0 +1,20 @@
+<% 
+
+fNextIdImages = function(list_images)  {
+    let max_id = 0
+    let flagExistImages = false
+
+    list_images.forEach((element) => {
+        flagExistImages = true
+        const posUnderscore = element.img_filename.lastIndexOf("_")
+        const indiceImagen = element.img_filename.substring(
+            posUnderscore + 1, element.img_filename.length)
+        if (parseInt(indiceImagen) > max_id) {
+            max_id = parseInt(indiceImagen);
+        }
+    }
+    )
+    return !flagExistImages?max_id: max_id + 1
+}
+ 
+%> 

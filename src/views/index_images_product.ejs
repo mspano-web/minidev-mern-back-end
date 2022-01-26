@@ -1,0 +1,42 @@
+<%- include('./partials/header', {tituloweb: 'Minidev'}); %>
+<%- include('./partials/next_id_product_image'); %>
+<%- include('./partials/path_product_image'); %>
+<body>
+
+    <a href="/images/list-products">Go back</a>
+
+    <h3> <%= prod_title %> </h3>
+    <p> <%= prod_description %> </p>
+    <hr />
+
+    <div class="d-flex  flex-row container justify-content-evenly p-4">
+
+        <% if(product.images.length > 0){ %>
+            <% product.images.forEach(function(img) { %>
+                <div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="<%= fPatProductImage(img.img_filename, img.img_extension) %>" class="card-img-top" alt="<%= img.img_filename %>"> 
+                            <a href="/images/delete/<%=product._id%>?filename=<%= img.img_filename %>&extension=<%= img.img_extension %>" class="btn btn-warning btn-block">
+                                Delete Image
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <% }); %>
+            <% } else{ %>  
+                <p>No photos uploaded</p>
+            <% } %>
+    </div>
+    <form action="/images/upload" method="POST" enctype="multipart/form-data" accept="image/*">
+        <label for="file">Choose a file</label>
+        <input type="file" id="file" name="image" required ">
+        <input type="hidden" name="product_id" value="<%=product._id%>">
+        <input type="hidden" name="new_image_id" value="<%=  fNextIdImages(product.images) %>">
+        <button class="btn btn-primary btn-block">
+            Upload
+        </button>
+    </form>
+</body>
+</html>
+

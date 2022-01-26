@@ -1,0 +1,37 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		 "plugins/markdown"
+		,"/Users/mspano/AppData/Roaming/npm/node_modules/tsdoc/template/plugins/TSDoc.js"
+	],
+	"opts":
+	{
+		"template"	:"/Users/mspano/AppData/Roaming/npm/node_modules/tsdoc/template",
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/Users/mspano/Documents/PERSONAL/WEB - NEW/PROJECTS/MINIDEV/minidev-mern/back-end/src/",
+		"destination"	:"/Users/mspano/Documents/PERSONAL/WEB - NEW/PROJECTS/MINIDEV/minidev-mern/back-end/docs",
+		"tutorials"		:"",
+		"systemName"	: "back-end",
+		"footer"		: "",
+		"copyright"		: "back-end Copyright © 2021 .",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}
