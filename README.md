@@ -36,3 +36,12 @@ ___
 
 ___
 
+## información del proyecto / Project information
+
+* [Wireframes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=0%3A1) - (Figma)
+* [Layouts & Prototypes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A3) - (Figma)
+* [StyleGuide & Components](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A2) - (Figma)
+
+*(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
+
+___
