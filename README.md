@@ -8,7 +8,7 @@ This initiative contains the code of a mini development called "MiniDev". It is 
 
 ___
 
-##Tecnologías / Technologies:
+## Tecnologías / Technologies
 
 * Node.js
 * Express.js
@@ -32,7 +32,6 @@ ___
 * Email Validator
 * Nodemailer
 * Winston / Express Winston
-* Multer
 * Typedoc
 
 ___
