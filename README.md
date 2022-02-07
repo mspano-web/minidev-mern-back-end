@@ -44,7 +44,7 @@ ___
 * [Wireframes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=0%3A1) - (Figma)
 * [Layouts & Prototypes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A3) - (Figma)
 * [StyleGuide & Components](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A2) - (Figma)
-* [Web Architecture - Basic Concepts](https://drive.google.com/file/d/1Jx6UhNNTERyLSBxYgM-i_j2Rl8Fem0WW/view?usp=sharing) - (Visio)
+* [Web Architecture - Basic Concepts](https://drive.google.com/file/d/1y9Y_AazNY5vYFOfeEXC6ZGcdPH8X-Aq5/view?usp=sharing) - (Visio)
 * [Git - GitHub - Basic Concepts Support](https://drive.google.com/file/d/1SMv7-xkrUtTYKGJMqWSugZiOTK3gBU4J/view?usp=sharing) - (Visio)
 
 *(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
