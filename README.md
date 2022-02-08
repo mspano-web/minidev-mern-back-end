@@ -46,7 +46,7 @@ ___
 * [StyleGuide & Components](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A2) - (Figma)
 * [Web Architecture - Basic Concepts](https://drive.google.com/file/d/1y9Y_AazNY5vYFOfeEXC6ZGcdPH8X-Aq5/view?usp=sharing) - (Visio)
 * [Git - GitHub - Basic Concepts Support](https://drive.google.com/file/d/1SMv7-xkrUtTYKGJMqWSugZiOTK3gBU4J/view?usp=sharing) - (Visio)
-* [Database Models](https://drive.google.com/file/d/1_Uw6z49oJQdccl_NAuh8tuwThV7UxlgJ/view?usp=sharing) - (Visio)
+* [Database Models](https://drive.google.com/file/d/11TC2_vS0F3lLVy5gOuVGtGguB220gLfP/view?usp=sharing) - (Visio)
 
 *(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
 
