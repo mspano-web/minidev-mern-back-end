@@ -49,7 +49,6 @@ ___
 * [Database Models](https://drive.google.com/file/d/11TC2_vS0F3lLVy5gOuVGtGguB220gLfP/view?usp=sharing) - (Visio)
 * [Architecture Backend - Application Design](https://drive.google.com/file/d/1yUYB-EvBQW6lwn3F6RbT4zsfD00WGfW_/view?usp=sharing) - (Visio)
 * [Architecture Node.js - Basic Concepts Support](https://drive.google.com/file/d/1k18lJ4dawecBGuMEp8rrOBCm7UG4siwd/view?usp=sharing) - (Visio)
-
-*(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
+* [Architecture Express.js - Basic Concepts Support](https://drive.google.com/file/d/11IyP64r0mm8XUYuVtrClLTseQwI0bQ1J/view?usp=sharing) - (Visio)
 
 ___
