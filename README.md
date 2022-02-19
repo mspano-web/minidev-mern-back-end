@@ -52,3 +52,4 @@ ___
 * [Architecture Express.js - Basic Concepts Support](https://drive.google.com/file/d/1AxPiYZRQJXSrkz4oa2zw1E-xWfCTIO--/view?usp=sharing) - (Visio)
 * [Rendering web pages on the Node.js server - Support](https://drive.google.com/file/d/1_cF4osMkeCAXGzg-epDb8dzh0LszKC45/view?usp=sharing) - (Visio)
 * [Data Model Architecture](https://drive.google.com/file/d/1fJDWsNLeJmI271Loxd0N5sRFw2xxjeFi/view?usp=sharing) - (Visio)
+* [Architecture SPA  - Basic Concepts Support](https://drive.google.com/file/d/1oq49hQcsRCR2TkMp8Ps6HhGZfttYS05Y/view?usp=sharing) - (Visio)
