@@ -55,4 +55,4 @@ ___
 * [Architecture SPA  - Basic Concepts Support](https://drive.google.com/file/d/1oq49hQcsRCR2TkMp8Ps6HhGZfttYS05Y/view?usp=sharing) - (Visio)
 * [React Rendering](https://drive.google.com/file/d/1rOk0H8crhuZekEyHl6ixckiajSy5WHh2/view?usp=sharing) - (Visio)
 * [Redux - Application State](https://drive.google.com/file/d/11y64zMLttygPL0nwny4Tg7BtOyBCL3ZI/view?usp=sharing) - (Visio)
-* [Security://drive.google.com/file/d/16kvMAEMrwj-q-wOTvOztnjirC9JixGXz/view?usp=sharing) - (Visio)
+* [Security](https://drive.google.com/file/d/16kvMAEMrwj-q-wOTvOztnjirC9JixGXz/view?usp=sharing) - (Visio)
