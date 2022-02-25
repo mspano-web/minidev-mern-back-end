@@ -56,4 +56,4 @@ ___
 * [React Rendering](https://drive.google.com/file/d/1rOk0H8crhuZekEyHl6ixckiajSy5WHh2/view?usp=sharing) 
 * [Redux - Application State](https://drive.google.com/file/d/11y64zMLttygPL0nwny4Tg7BtOyBCL3ZI/view?usp=sharing) 
 * [Security](https://drive.google.com/file/d/16kvMAEMrwj-q-wOTvOztnjirC9JixGXz/view?usp=sharing)
-* [Pagination Design](https://drive.google.com/file/d/1O35Yp8MhFna4ZgVmqnBLmYIRkKp33s-H/view?usp=sharing)
+* [Pagination Design](https://drive.google.com/file/d/16QKeOpYEZsthRci1gC-bKI7D3wOkqTNR/view?usp=sharing)
