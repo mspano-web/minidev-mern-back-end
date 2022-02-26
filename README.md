@@ -38,6 +38,12 @@ ___
 
 ## Información del proyecto / Project information
 
+* Developer Web MS - [Youtube channel](https://www.youtube.com/channel/UCnaIlIexr7P2KFrm9NGZZOQ) - (YOUTUBE)
+* Developer Web MS - [Contenido - Español](https://drive.google.com/file/d/1Zqw626lHTavCQ8T8yCJcNtqtEb1Fy7Tr/view?usp=sharing) / [Content - English](https://drive.google.com/file/d/1HU2vBRFnE1nsBxYt6wrRJm8kpWOrN7np/view?usp=sharing) - (PDF) 
+___
+
+## Documentacion de soporte / Support documentation
+
 * [Agile Inception, Impact Mapping](https://miro.com/app/board/o9J_l7FSPbs=/?invite_link_id=516590170232) - (Miro)
 * [Agile Inception, User Story Map](https://miro.com/app/board/o9J_l7FNp3E=/?invite_link_id=887269165785) - (Miro)
 * [Agile Scrum, Product RoadMap](https://drive.google.com/file/d/1ljGgMDOl8rEarrwNbsfjXj-_i0na8EG4/view?usp=sharing) - (Jira)
