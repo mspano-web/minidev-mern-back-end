@@ -47,7 +47,7 @@ ___
 * [Web Architecture - Basic Concepts](https://drive.google.com/file/d/1y9Y_AazNY5vYFOfeEXC6ZGcdPH8X-Aq5/view?usp=sharing) 
 * [Git - GitHub - Basic Concepts Support](https://drive.google.com/file/d/1SMv7-xkrUtTYKGJMqWSugZiOTK3gBU4J/view?usp=sharing) 
 * [Database Models](https://drive.google.com/file/d/11TC2_vS0F3lLVy5gOuVGtGguB220gLfP/view?usp=sharing) 
-* [Architecture Backend - Application Design](https://drive.google.com/file/d/1yUYB-EvBQW6lwn3F6RbT4zsfD00WGfW_/view?usp=sharing) 
+* [Architecture Back End - Application Design](https://drive.google.com/file/d/1yUYB-EvBQW6lwn3F6RbT4zsfD00WGfW_/view?usp=sharing) 
 * [Architecture Node.js - Basic Concepts Support](https://drive.google.com/file/d/1k18lJ4dawecBGuMEp8rrOBCm7UG4siwd/view?usp=sharing) 
 * [Architecture Express.js - Basic Concepts Support](https://drive.google.com/file/d/1AxPiYZRQJXSrkz4oa2zw1E-xWfCTIO--/view?usp=sharing) 
 * [Rendering web pages on the Node.js server - Support](https://drive.google.com/file/d/1_cF4osMkeCAXGzg-epDb8dzh0LszKC45/view?usp=sharing) 
@@ -57,3 +57,6 @@ ___
 * [Redux - Application State](https://drive.google.com/file/d/11y64zMLttygPL0nwny4Tg7BtOyBCL3ZI/view?usp=sharing) 
 * [Security](https://drive.google.com/file/d/16kvMAEMrwj-q-wOTvOztnjirC9JixGXz/view?usp=sharing)
 * [Pagination Design](https://drive.google.com/file/d/16QKeOpYEZsthRci1gC-bKI7D3wOkqTNR/view?usp=sharing)
+* [Architecture Front End - Application Design](https://drive.google.com/file/d/1J6U9dHXs7saHtsVqwVwGdJNnSfpUa9IT/view?usp=sharing)
+
+*(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
