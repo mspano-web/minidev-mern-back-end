@@ -39,7 +39,7 @@ ___
 ## Información del proyecto / Project information
 
 * Developer Web MS - [Youtube channel](https://www.youtube.com/channel/UCnaIlIexr7P2KFrm9NGZZOQ) - (YOUTUBE)
-* Developer Web MS - [Contenido - Español](https://drive.google.com/file/d/1Zqw626lHTavCQ8T8yCJcNtqtEb1Fy7Tr/view?usp=sharing) / [Content - English](https://drive.google.com/file/d/1HU2vBRFnE1nsBxYt6wrRJm8kpWOrN7np/view?usp=sharing) - (PDF) 
+* Developer Web MS - [Contenido - Español](https://drive.google.com/file/d/16Z24Qi_nGPlYDa8ZwP4sW_PgvgHtlG6-/view?usp=sharing) / [Content - English](https://drive.google.com/file/d/1f8E40XHramQpNo2lte8Vsysk8vFBdh-v/view?usp=sharing) - (PDF) 
 ___
 
 ## Documentacion de soporte / Support documentation
