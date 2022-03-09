@@ -51,7 +51,7 @@ ___
 * [Layouts & Prototypes](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A3) - (Figma)
 * [StyleGuide & Components](https://www.figma.com/file/qmoBmYWgD0C3zzdr6WSYXt/MiniDev?node-id=1%3A2) - (Figma)
 * [Web Architecture - Basic Concepts](https://drive.google.com/file/d/1y9Y_AazNY5vYFOfeEXC6ZGcdPH8X-Aq5/view?usp=sharing) 
-* [Git - GitHub - Basic Concepts Support](https://drive.google.com/file/d/1SMv7-xkrUtTYKGJMqWSugZiOTK3gBU4J/view?usp=sharing) 
+* [Git - GitHub - Basic Concepts Support](https://drive.google.com/file/d/1U0fH3fZXgHWKqMn7Kb8y7aLG_tQ6hLEA/view?usp=sharing) 
 * [Database Models](https://drive.google.com/file/d/11TC2_vS0F3lLVy5gOuVGtGguB220gLfP/view?usp=sharing) 
 * [Back End Architecture - Application Design](https://drive.google.com/file/d/1yUYB-EvBQW6lwn3F6RbT4zsfD00WGfW_/view?usp=sharing) 
 * [Node.js Architecture - Basic Concepts Support](https://drive.google.com/file/d/1k18lJ4dawecBGuMEp8rrOBCm7UG4siwd/view?usp=sharing) 
