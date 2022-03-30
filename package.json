@@ -7,7 +7,7 @@
     "build": "tsc",
     "dev": "ts-node-dev ./src/index.ts",
     "test": "mocha  -r  ts-node/register './src/tests/*.spec.ts'",
-    "postinstall": "npm run build   && rm -v -rf src", 
+    "postinstall": "npm run build", 
     "start": "node ./dist/src/index.js",
     "docs": "typedoc --entryPointStrategy expand ./src   --out docs"
   },
