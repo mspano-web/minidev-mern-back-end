@@ -157,10 +157,12 @@ export class Configuration  {
    * Function that establishes the application configuration, from the .env file for the development environment; or from the context of the productive environment
    */
   setApplication() {
-    let dirImages = this.dotenvParsed.DIRECTORY_PRODUCTS_IMAGES   // Default DEV
+    let  dirImages
     if (this.env !== 'DEV') {
       dirImages = process.env.DIRECTORY_PRODUCTS_IMAGES
-    } 
+    } else {
+      dirImages = this.dotenvParsed.DIRECTORY_PRODUCTS_IMAGES   
+    }
     this.iApp = { 
       directoryProductsImages: dirImages,
       defaultRol: (this.env === 'DEV')?this.dotenvParsed.DEFAULT_ROL:process.env.DEFAULT_ROL
