@@ -40,20 +40,20 @@
 }
 
 /* Users ------------------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/user/              */
+/*      Method:  GET (read) - http://localhost:5000/users/              */
 /*      Body:                                                          */
 
 /* Users ------------------------------------------------------------- */
-/*      Method:  POST (read) - http://localhost:5000/user/login        */
+/*      Method:  POST (read) - http://localhost:5000/users/login        */
 /*      Body:                                                          */
 
 {
-    "usr_email":          "standard@empresa.com",
-    "usr_password":       "standard",
+    "usr_email":          "standard@minidev.com",
+    "usr_password":       "standard"
 }
 
 /* Users ------------------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/user/2             */
+/*      Method:  GET (read) - http://localhost:5000/users/2             */
 /*      Body:                                                          */
 /*      Header:                                                       */
 HEADER: x-access-token: "[Token returned in / users / login]"
@@ -61,7 +61,7 @@ HEADER: x-security-role   STANDARD
 
 
 /* Users ------------------------------------------------------------- */
-/*      Method:  PUT (update) - http://localhost:5000/user/2           */
+/*      Method:  PUT (update) - http://localhost:5000/users/2           */
 /*      Body:                                                          */
 
 {
@@ -85,7 +85,7 @@ HEADER: x-security-role   STANDARD
 /*      Method:  POST (update) - http://localhost:5000/users/forgotpassword  */      
 /*      Body:                                                                */
 {
-    "usr_email":  "standard_modificado@gmail.com",
+    "email":  "standard@minidev.com"
 }
 
 /* Users ------------------------------------------------------------------- */
@@ -108,39 +108,32 @@ HEADER: x-security-role   STANDARD
 /*      Header:                                                        */
 
 /* States ------------------------------------------------------------ */
-/*      Method:  GET (read) - http://localhost:5000/state/             */
+/*      Method:  GET (read) - http://localhost:5000/states/             */
 /*      Body:                                                          */
 /*      Header:                                                        */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   STANDARD
+
 
 /* Categories -------------------------------------------------------- */
 /*      Method:  GET (read) - http://localhost:5000/categories/        */
 /*      Body:                                                          */
 /*      Header:                                                        */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   STANDARD
+
 
 /* Configurations ---------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/configurations/    */
+/*      Method:  GET (read) - http://localhost:5000/configuration/     */
 /*      Body:                                                          */
 /*      Header:                                                        */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   STANDARD
 
 /* Products ---------------------------------------------------------- */
 /*      Method:  GET (read) - http://localhost:5000/products/          */
 /*      Body:                                                          */
 /*      Header:                                                        */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   STANDARD
 
 /* Products ---------------------------------------------------------- */
 /*      Method:  GET (read) - http://localhost:5000/products/1         */
 /*      Body:                                                          */
 /*      Header:                                                        */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   STANDARD
+
 
 /* Publications--------------------------------------------------------- */
 /*      Method:  POST (insert) - http://localhost:5000/publications      */
@@ -209,110 +202,39 @@ HEADER: x-access-token: "[Token returned in /users/login]"
 HEADER: x-security-role   ADMIN
 
 /* Publications --------------------------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/publications?page=1&limit=3      */
+/*      Method:  GET (read) - http://localhost:5000/publications?page=1&limit=3       */
 /*      Body:                                                                         */
 /*      Header:                                                                       */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   ADMIN
 
 
-/* Publications ---------------------------------------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/publications/title?title="Classic jean shorts" */
-/*      Body:                                                                                      */
-/*      Header:                                                                                    */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   ADMIN
+/* Publications ----------------------------------------------------------------------------------------------- */
+/*      Method:  GET (read) - http://localhost:5000/publications/title?title=Classic jean shorts&page=1&limit=3 */
+/*      Body:                                                                                                   */
+/*      Header:                                                                                                 */
 
 /* Publications-------------------------------------------------------------- */
-/*      Method:  GET (read) - http://localhost:5000/publications/category/1   */
-/*      Body:                                                                 */
-/*      Header:                                                               */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   ADMIN
+/*      Method:  GET (read) - http://localhost:5000/publications/category/3?page=1&limit=3   */
+/*      Body:                                                                                */
+/*      Header:                                                                              */
 
 /* Publications------------------------------------------------------ */
-/*      Method:  GET (read) - http://localhost:5000/publications/1    */
+/*      Method:  GET (read) - http://localhost:5000/publications/77    */
 /*      Body:                                                         */
 /*      Header:                                                       */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   ADMIN
 
-/* Publications------------------------------------------------------ */
-/*      Method:  PUT (update) - http://localhost:5000/publications/1  */
-/*      Body:                                                         */
-/*      Header:                                                       */
-HEADER: x-access-token: "[Token returned in /users/login]"
-HEADER: x-security-role   ADMIN
-{
-    "pub_title":  "Classic jean shorts Wow",
-    "pub_description": "Excellent summer shorts for all occasions.",
-    "pub_price": 22,
-    "pub_shipping_cost": 0,
-    "pub_due_date": "01-10-2022",    /* MONGO */
-    /* "pub_due_date": "2022-10-01",     MYSQL */
-    "category": 
-    {
-        "_id" : 3,
-        "cat_flag_single" : true,
-        "cat_description": "Shorts"    
-    },
-    "products": [
-        {
-            "_id": 5,
-            "prod_title": "Classic jean shorts",
-            "prod_description": "Excellent summer shorts for all occasions.",
-            "prod_price": 20,
-            "category": 
-            {
-                "_id" : 3,
-                "cat_flag_single" : true,
-                "cat_description": "Shorts"    
-            },
-            "images": [
-                {
-                 "_id": 1,
-                 "img_flag_main": true,
-                 "img_filename": "1_1",
-                 "img_extension": "jpg"
-                },
-                {
-                 "_id": 2,
-                 "img_flag_main": false,
-                 "img_filename": "1_2",
-                 "img_extension": "jpg"
-                },
-                {
-                 "_id": 3,
-                 "img_flag_main": false,
-                 "img_filename": "1_3",
-                 "img_extension": "jpg"
-                },
-                {
-                 "_id": 4,
-                 "img_flag_main": false,
-                 "img_filename": "1_4",
-                 "img_extension": "jpg"
-                },
-                {
-                 "_id": 5,
-                 "img_flag_main": false,
-                 "img_filename": "1_5",
-                 "img_extension": "jpg"
-                }
-             ]
-        }
-    ]
- }
 
 /* Sales ------------------------------------------------------------- */
 /*      Method:  POST (insert) - http://localhost:5000/sales           */
+/*      Header:                                                       */
+HEADER: x-access-token: [Token returned in /users/login]
+HEADER: x-security-role   STANDARD
 /*      Body:                                                          */
  {
-    "pub_id": "1",
+    "pub_id": "76",
     "usr_id": "2",
-    "sale_delivery_date":  "11-12-2021",
-    "sale_purchase_date": "01-12-2021", 
-    "sale_invoice_amount": 22
+    "sale_delivery_date": "2022-3-2 10:31:4",
+    "sale_invoice_amount": 22,
+    "user": '2'
 }
 
 /* -------------------------------------------------------------------- */

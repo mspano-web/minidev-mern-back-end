@@ -9,7 +9,7 @@
 //                 rather than database semantics. 
 import mongoose, { ConnectionOptions } from "mongoose"; // MongoDB
 const Configuration = require("../../config/config");
-import { MONGO } from "../../types/config.types"
+import { MONGO, DEV } from "../../types/config.types"
 const { InternalError, StandardError } = require('../../errors/errors');
 
 /**
@@ -40,7 +40,12 @@ export const connectMongoDatabase = async () => {
     // The .env file would contain the definition of these variables.
 
     const HOST = cfg.iDatabase.host
-    URI = `mongodb://${HOST}:27017/${cfg.iDatabase.database}`;
+    
+    if (  cfg.env === DEV ) 
+      URI = `mongodb://${HOST}:27017/${cfg.iDatabase.database}`;
+    else 
+      URI = `mongodb+srv://${cfg.iDatabase.user}:${cfg.iDatabase.password}@${HOST}/${cfg.iDatabase.database}?retryWrites=true&w=majority`
+      // Heroku production environment - Atlas MongoDB
 
     await mongoose.connect(URI, mongooseOptions);
       
