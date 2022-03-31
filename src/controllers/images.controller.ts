@@ -87,10 +87,16 @@ const { StandardError, InternalError } = require('../errors/errors');
  */ 
 export const uploadImages = async function (req: Request, res: Response, next: NextFunction) {
   try {
-    const originalName = req.body.pathbase + "\\" + req.body.originalname;
+    let separator: string
+    if(process.platform.includes("win")) {
+        separator = "\\"
+    } else {
+      separator = "//"
+    }
+    const originalName = req.body.pathbase + separator + req.body.originalname;
     const extension: string = originalName.slice((originalName.lastIndexOf(".") - 1 >>> 0) + 2)
     const newNameToRename: any = req.body.product_id +"_" + req.body.new_image_id + "." + extension; 
-    const newPathToRename = req.body.pathbase + "\\" + newNameToRename
+    const newPathToRename = req.body.pathbase + separator + newNameToRename
  
     let oImage : IImage = {
       img_flag_main: false,
