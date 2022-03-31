@@ -1,2 +1,5 @@
 dist
 node_modules
+error.log
+info.log
+warning.log
