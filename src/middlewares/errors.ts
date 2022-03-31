@@ -41,10 +41,15 @@ const errorLogger: ErrorRequestHandler = (e: any, req: Request, res: Response, n
  * @returns     Go to the Next middleware
  */  
   const errorResponder: ErrorRequestHandler = (e: any, req: Request, res: Response, next: NextFunction) => {
+    let ex;
     if (!e) return next();
      res.header("Content-Type", 'application/json')
-     if (e._iError.statusCode === null || e._iError.statusCode === undefined) e._iError.statusCode = 400;
-     res.status(e._iError.statusCode).json( e._iError.message)
+     if ( !(e instanceof InternalError || e instanceof StandardError) )  {
+        ex =  new InternalError({message: "Internal Fail", data: {}, exception: e}) 
+    } else {
+        ex = e;
+    }
+     res.status(ex.getError().statusCode).json( ex.getError().message)
   }
 
 module.exports = { errorLogger, errorResponder }

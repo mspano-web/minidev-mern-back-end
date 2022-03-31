@@ -40,6 +40,11 @@ class StandardError extends Error {
       this._iError.message = iError.message
       this._iError.data = iError.data
     }
+
+    getError () {
+      return this._iError;
+    }
+
   }
 
  // -----------------------------
