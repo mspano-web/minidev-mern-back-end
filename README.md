@@ -1,10 +1,10 @@
 # MiniDev
 
-La presente iniciativa contiene el codigo de un mini desarrollo llamado "MiniDev". Esta destinado a compartir conocimientos sobre desarrollo de software web.   Es totalmente gratuita y compartida como un aporte a la comunidad. Se tratarán diversos temas del ciclo de vida del desarrollo de software. Destinado a aquellas personas que se encuentran incursionando en el desarrollo web.  Se complementa con el repositorio [minidev-mern-front-end](https://github.com/mspano-web/minidev-mern-front-end). Se apoya en videos que seran publicados en el canal de youtube:  [Developer Web MS](https://www.youtube.com/watch?v=GfBNp54iRaM&list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2).
+La presente iniciativa contiene el codigo de un mini desarrollo llamado "MiniDev". Esta destinado a compartir conocimientos sobre desarrollo de software web.   Es totalmente gratuita y compartida como un aporte a la comunidad. Se tratarán diversos temas del ciclo de vida del desarrollo de software. Destinado a aquellas personas que se encuentran incursionando en el desarrollo web.  Se complementa con el repositorio [minidev-mern-front-end](https://github.com/mspano-web/minidev-mern-front-end). Se apoya en videos que seran publicados en el canal de youtube:  [Developer Web MS](https://www.youtube.com/playlist?list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2).
 
 ___
 
-This initiative contains the code of a mini development called "MiniDev". It is intended to share knowledge about web software development. It is completely free and shared as a contribution to the community. Various topics of the software development life cycle will be covered. Intended for those people who are dabbling in web development. It is complemented by the repository [minidev-mern-front-end](https://github.com/mspano-web/minidev-mern-front-end) repository. It is supported by videos that will be published on the YouTube channel: [Developer Web MS](https://www.youtube.com/watch?v=GfBNp54iRaM&list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2).
+This initiative contains the code of a mini development called "MiniDev". It is intended to share knowledge about web software development. It is completely free and shared as a contribution to the community. Various topics of the software development life cycle will be covered. Intended for those people who are dabbling in web development. It is complemented by the repository [minidev-mern-front-end](https://github.com/mspano-web/minidev-mern-front-end) repository. It is supported by videos that will be published on the YouTube channel: [Developer Web MS](https://www.youtube.com/playlist?list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2).
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 ## Información del proyecto / Project information
 
-* Developer Web MS - [Youtube channel](https://www.youtube.com/watch?v=GfBNp54iRaM&list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2) - (YOUTUBE)
+* Developer Web MS - [Youtube channel](https://www.youtube.com/playlist?list=PLWnRJL1SdIiogd05dz8OLTEmFQNLMSfm2) - (YOUTUBE)
 * Developer Web MS - [Contenido - Español](https://drive.google.com/file/d/16Z24Qi_nGPlYDa8ZwP4sW_PgvgHtlG6-/view?usp=sharing) / [Content - English](https://drive.google.com/file/d/1f8E40XHramQpNo2lte8Vsysk8vFBdh-v/view?usp=sharing) - (PDF) 
 ___
 
